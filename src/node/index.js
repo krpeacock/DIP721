@@ -101,13 +101,13 @@ async function main() {
       [
         "location",
         {
-          TextContent: `http://${assetCanisterId}.localhost:8000/${uploadedFilePath}`,
+          TextContent: `http://${assetCanisterId}.localhost:4943/${uploadedFilePath}`,
         },
       ],
       [
         "thumbnail",
         {
-          TextContent: `http://${assetCanisterId}.localhost:8000/${uploadedThumbnailPath}`,
+          TextContent: `http://${assetCanisterId}.localhost:4943/${uploadedThumbnailPath}`,
         },
       ],
       ["contentType", { TextContent: contentType }],
