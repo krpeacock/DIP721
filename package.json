@@ -1,0 +1,27 @@
+{
+  "name": "dip721",
+  "version": "1.0.0",
+  "description": "## Summary",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --es-module-specifier-resolution=node src/node/index.js",
+    "build": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dfinity/agent": "^0.15.1",
+    "@dfinity/assets": "^0.15.1",
+    "@dfinity/identity": "^0.15.1",
+    "@dfinity/identity-secp256k1": "^0.15.1",
+    "buffer": "^6.0.3",
+    "image-thumbnail": "^1.0.15",
+    "isomorphic-fetch": "^3.0.0",
+    "mmmagic": "^0.5.3",
+    "prettier": "^2.8.2",
+    "sha256-file": "^1.0.0"
+  }
+}
